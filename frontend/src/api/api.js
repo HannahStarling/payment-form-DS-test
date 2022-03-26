@@ -24,6 +24,6 @@ const request = ({ url, method = 'POST', body }) => {
   return fetch(`${BASE_URL}${url}`, config).then(prepareData);
 };
 
-export const payment = (CardNumber, ExpDate, Cvv, Amount) => {
+export const payment = ({ CardNumber, ExpDate, Cvv, Amount }) => {
   return request({ url: '/payment-info', body: { CardNumber, ExpDate, Cvv, Amount } });
 };
