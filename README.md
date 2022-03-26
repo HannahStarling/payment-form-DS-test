@@ -2,6 +2,35 @@
 
 Payment form React.js with AntDesign on node.js (express) server
 
+## Для запуска проекта:
+
+1. Скачать проект (клонировтаь репозиторий).
+2. Находясь в корне проекта:
+
+- `/frontend`
+  Поочередно запустить в терминале команды:
+
+```bash
+cd frontend
+npm i
+npm start
+```
+
+Сайт запуститься локально:
+http://localhost:3000/
+
+- `/backend`
+  Поочередно запустить в терминале команды:
+
+```bash
+cd backend
+npm i
+npm rud dev
+```
+
+Сервер запуститься локально:
+http://localhost:5000/
+
 ## Payment Form
 
 Репозиторий для приложение приема платежей, включающий фронтенд и бэкенд части приложения со следующими возможностями:
@@ -21,11 +50,6 @@ Payment form React.js with AntDesign on node.js (express) server
 
 - Сохраняет данные в mongoDB
 - Возвращает в ответ ID записи и Amount в формате JSON
-
-## Директории
-
-- `/frontend`
-- `/backend`
 
 ## Стек технологий
 
