@@ -58,8 +58,9 @@ const PaymentForm = () => {
           name='CardNumber'
           tooltip='Payment card numbers are composed of 16 digits'
           rules={[
+            { pattern: /^[0-9]{1,}$/gi, message: 'Only numbers allowed' },
             { required: true, message: 'Please, enter card number' },
-            { len: 16, message: 'Card number must be exactly 16 characters' },
+            { len: 16, message: 'Must be exactly 16 characters' },
           ]}
           hasFeedback
         >
@@ -87,7 +88,7 @@ const PaymentForm = () => {
           tooltip='CVV number is a three-digit number on the back of the card'
           rules={[
             { required: true, message: 'Please, enter cvv' },
-            { pattern: /^[0-9]{1,}$/gi, message: 'Only numbers' },
+            { pattern: /^[0-9]{1,}$/gi, message: 'Only numbers allowed' },
             { len: 3, message: 'CVV must be exactly 3 characters' },
           ]}
         >
@@ -100,7 +101,7 @@ const PaymentForm = () => {
           rules={[
             { required: true, message: 'Please, enter amount of payment' },
             { min: 1 },
-            { pattern: /^[0-9]{1,}$/gi, message: 'Only numbers' },
+            { pattern: /^[0-9]{1,}$/gi, message: 'Only numbers allowed' },
           ]}
         >
           <Input placeholder='10000' />
