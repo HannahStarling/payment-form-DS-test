@@ -60,7 +60,6 @@ const PaymentForm = () => {
           rules={[
             { required: true, message: 'Please, enter card number' },
             { len: 16, message: 'Card number must be exactly 16 characters' },
-            { pattern: /^[0-9]{1,}$/gi, message: 'Only numbers' },
           ]}
           hasFeedback
         >
