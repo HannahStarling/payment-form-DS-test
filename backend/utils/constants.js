@@ -5,7 +5,11 @@ const limiter = rateLimit({
   max: 100,
 });
 
-const allowedCors = ['http://localhost:3000', 'https://localhost:3000'];
+const allowedCors = [
+  'http://localhost:3000',
+  'https://localhost:3000',
+  'https://hannahstarling.github.io/payment-form-DS-test/',
+];
 
 const corsOptions = {
   credentials: true,
