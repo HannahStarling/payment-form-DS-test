@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/payment-form-DS-test/static/css/main.cc4f5a64.css",
+    "main.js": "/payment-form-DS-test/static/js/main.fa205500.js",
+    "static/js/787.cda612ba.chunk.js": "/payment-form-DS-test/static/js/787.cda612ba.chunk.js",
+    "index.html": "/payment-form-DS-test/index.html",
+    "main.cc4f5a64.css.map": "/payment-form-DS-test/static/css/main.cc4f5a64.css.map",
+    "main.fa205500.js.map": "/payment-form-DS-test/static/js/main.fa205500.js.map",
+    "787.cda612ba.chunk.js.map": "/payment-form-DS-test/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc4f5a64.css",
+    "static/js/main.fa205500.js"
+  ]
+}
